@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+echo "===> [Start] Running migrations"
+php artisan migrate
+echo "===> [End] Running migrations"

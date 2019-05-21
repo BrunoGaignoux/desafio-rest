@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+echo "===> [Start] Setting up permissions"
+chown -R www-data:www-data ./storage
+chmod -R 775 ./storage/logs
+echo "===> [End] Setting up permissions"
